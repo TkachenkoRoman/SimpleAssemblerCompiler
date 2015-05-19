@@ -253,6 +253,11 @@ namespace lexer
                 return true;
             }
             positionInLexems = currPosInLexems; // restore position in lexems
+            if (ParseFMULStatement(currentNode))
+            {
+                return true;
+            }
+            positionInLexems = currPosInLexems; // restore position in lexems
             if (ParseFCOMPStatement(currentNode))
             {
                 return true;
@@ -263,6 +268,44 @@ namespace lexer
                 return true;
             }
             positionInLexems = currPosInLexems; // restore position in lexems
+            return false;
+        }
+
+
+        private bool ParseFMULStatement(SyntaxTree.XMLNode curr)
+        {
+            LexicalAnalizerOutput currentToken = GetNextToken();
+            if (currentToken.lexem == "FMUL")
+            {
+                SyntaxTree.XMLNode fmul = curr.AddNode(new SyntaxTree.XMLNode() { name = nodesTypes.fmul_statement });
+                fmul.AddNode(new SyntaxTree.XMLNode() { name = nodesTypes.token, value = currentToken.lexem });
+                if (ParseIdentifierSt(fmul))
+                {
+                    currentToken = GetNextToken();
+                    if (currentToken.lexem == ",")
+                    {
+                        fmul.AddNode(new SyntaxTree.XMLNode() { name = nodesTypes.token, value = currentToken.lexem });
+                        currentToken = GetNextToken();
+                        if (currentToken.lexem == "ST")
+                        {
+                            fmul.AddNode(new SyntaxTree.XMLNode() { name = nodesTypes.token, value = currentToken.lexem });
+                        }
+                        else
+                        {
+                            errors.Add(new Error { message = "**Error** Expected ','", row = currentToken.row });
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        errors.Add(new Error { message = "**Error** Expected 'ST'", row = currentToken.row });
+                        return false;
+                    }
+                    return true;
+                }
+                else
+                    curr.nodes.Remove(fmul);
+            }
             return false;
         }
 
