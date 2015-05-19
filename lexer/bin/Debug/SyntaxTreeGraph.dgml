@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="0" Value="" Label="program" />
+    <Node Id="1" Value="" Label="segment_declar" />
+    <Node Id="2" Value="" Label="segment_identifier" />
+    <Node Id="3" Value="DATA" Label="token: DATA" />
+    <Node Id="4" Value="SEGMENT" Label="token: SEGMENT" />
+    <Node Id="5" Value="" Label="block" />
+    <Node Id="6" Value="" Label="statement_list" />
+    <Node Id="7" Value="" Label="statement" />
+    <Node Id="8" Value="" Label="declaration" />
+    <Node Id="9" Value="" Label="identifier" />
+    <Node Id="10" Value="VAL1" Label="token: VAL1" />
+    <Node Id="11" Value="" Label="format_part" />
+    <Node Id="12" Value="DD" Label="token: DD" />
+    <Node Id="13" Value="" Label="constant" />
+    <Node Id="14" Value="" Label="statement_list" />
+    <Node Id="15" Value="" Label="statement" />
+    <Node Id="16" Value="" Label="declaration" />
+    <Node Id="17" Value="" Label="identifier" />
+    <Node Id="18" Value="VAL2" Label="token: VAL2" />
+    <Node Id="19" Value="" Label="format_part" />
+    <Node Id="20" Value="DQ" Label="token: DQ" />
+    <Node Id="21" Value="" Label="constant" />
+    <Node Id="22" Value="" Label="statement_list" />
+    <Node Id="23" Value="" Label="statement" />
+    <Node Id="24" Value="" Label="declaration" />
+    <Node Id="25" Value="" Label="identifier" />
+    <Node Id="26" Value="VAL3" Label="token: VAL3" />
+    <Node Id="27" Value="" Label="format_part" />
+    <Node Id="28" Value="DD" Label="token: DD" />
+    <Node Id="29" Value="" Label="constant" />
+    <Node Id="30" Value="" Label="statement_list" />
+    <Node Id="31" Value="" Label="statement" />
+    <Node Id="32" Value="" Label="segment_identifier" />
+    <Node Id="33" Value="DATA" Label="token: DATA" />
+    <Node Id="34" Value="ENDS" Label="token: ENDS" />
+    <Node Id="35" Value="" Label="segment_list" />
+    <Node Id="36" Value="" Label="segment_declar" />
+    <Node Id="37" Value="" Label="segment_identifier" />
+    <Node Id="38" Value="CODE" Label="token: CODE" />
+    <Node Id="39" Value="SEGMENT" Label="token: SEGMENT" />
+    <Node Id="40" Value="" Label="block" />
+    <Node Id="41" Value="" Label="statement_list" />
+    <Node Id="42" Value="" Label="statement" />
+    <Node Id="43" Value="" Label="entry_point" />
+    <Node Id="44" Value="" Label="entry_point_identifier" />
+    <Node Id="45" Value="BEGIN" Label="token: BEGIN" />
+    <Node Id="46" Value="" Label="statement_list" />
+    <Node Id="47" Value="" Label="statement" />
+    <Node Id="48" Value="" Label="fldz_statement" />
+    <Node Id="49" Value="" Label="statement_list" />
+    <Node Id="50" Value="" Label="statement" />
+    <Node Id="51" Value="" Label="fsub_statement" />
+    <Node Id="52" Value="" Label="identifier" />
+    <Node Id="53" Value="VAL1" Label="token: VAL1" />
+    <Node Id="54" Value="[" Label="token: [" />
+    <Node Id="55" Value="EDX" Label="register32: EDX" />
+    <Node Id="56" Value="+" Label="token: +" />
+    <Node Id="57" Value="ESI" Label="register16: ESI" />
+    <Node Id="58" Value="]" Label="token: ]" />
+    <Node Id="59" Value="" Label="statement_list" />
+    <Node Id="60" Value="" Label="statement" />
+    <Node Id="61" Value="" Label="fsub_statement" />
+    <Node Id="62" Value="" Label="identifier" />
+    <Node Id="63" Value="VAL2" Label="token: VAL2" />
+    <Node Id="64" Value="[" Label="token: [" />
+    <Node Id="65" Value="EDX" Label="register32: EDX" />
+    <Node Id="66" Value="+" Label="token: +" />
+    <Node Id="67" Value="ESI" Label="register16: ESI" />
+    <Node Id="68" Value="]" Label="token: ]" />
+    <Node Id="69" Value="" Label="statement_list" />
+    <Node Id="70" Value="" Label="statement" />
+    <Node Id="71" Value="" Label="fcomp_statement" />
+    <Node Id="72" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="73" Value="ST" Label="identifier_st: ST" />
+    <Node Id="74" Value="ST" Label="token: ST" />
+    <Node Id="75" Value="(" Label="token: (" />
+    <Node Id="76" Value="0" Label="st_argument: 0" />
+    <Node Id="77" Value=")" Label="token: )" />
+    <Node Id="78" Value="" Label="statement_list" />
+    <Node Id="79" Value="" Label="statement" />
+    <Node Id="80" Value="" Label="fcomp_statement" />
+    <Node Id="81" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="82" Value="ST" Label="identifier_st: ST" />
+    <Node Id="83" Value="ST" Label="token: ST" />
+    <Node Id="84" Value="(" Label="token: (" />
+    <Node Id="85" Value="1" Label="st_argument: 1" />
+    <Node Id="86" Value=")" Label="token: )" />
+    <Node Id="87" Value="" Label="statement_list" />
+    <Node Id="88" Value="" Label="statement" />
+    <Node Id="89" Value="" Label="fcomp_statement" />
+    <Node Id="90" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="91" Value="ST" Label="identifier_st: ST" />
+    <Node Id="92" Value="ST" Label="token: ST" />
+    <Node Id="93" Value="(" Label="token: (" />
+    <Node Id="94" Value="2" Label="st_argument: 2" />
+    <Node Id="95" Value=")" Label="token: )" />
+    <Node Id="96" Value="" Label="statement_list" />
+    <Node Id="97" Value="" Label="statement" />
+    <Node Id="98" Value="" Label="fcomp_statement" />
+    <Node Id="99" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="100" Value="ST" Label="identifier_st: ST" />
+    <Node Id="101" Value="ST" Label="token: ST" />
+    <Node Id="102" Value="(" Label="token: (" />
+    <Node Id="103" Value="3" Label="st_argument: 3" />
+    <Node Id="104" Value=")" Label="token: )" />
+    <Node Id="105" Value="" Label="statement_list" />
+    <Node Id="106" Value="" Label="statement" />
+    <Node Id="107" Value="" Label="fcomp_statement" />
+    <Node Id="108" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="109" Value="ST" Label="identifier_st: ST" />
+    <Node Id="110" Value="ST" Label="token: ST" />
+    <Node Id="111" Value="(" Label="token: (" />
+    <Node Id="112" Value="4" Label="st_argument: 4" />
+    <Node Id="113" Value=")" Label="token: )" />
+    <Node Id="114" Value="" Label="statement_list" />
+    <Node Id="115" Value="" Label="statement" />
+    <Node Id="116" Value="" Label="fcomp_statement" />
+    <Node Id="117" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="118" Value="ST" Label="identifier_st: ST" />
+    <Node Id="119" Value="ST" Label="token: ST" />
+    <Node Id="120" Value="(" Label="token: (" />
+    <Node Id="121" Value="5" Label="st_argument: 5" />
+    <Node Id="122" Value=")" Label="token: )" />
+    <Node Id="123" Value="" Label="statement_list" />
+    <Node Id="124" Value="" Label="statement" />
+    <Node Id="125" Value="" Label="fcomp_statement" />
+    <Node Id="126" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="127" Value="ST" Label="identifier_st: ST" />
+    <Node Id="128" Value="ST" Label="token: ST" />
+    <Node Id="129" Value="(" Label="token: (" />
+    <Node Id="130" Value="6" Label="st_argument: 6" />
+    <Node Id="131" Value=")" Label="token: )" />
+    <Node Id="132" Value="" Label="statement_list" />
+    <Node Id="133" Value="" Label="statement" />
+    <Node Id="134" Value="" Label="fcomp_statement" />
+    <Node Id="135" Value="FCOMP" Label="token: FCOMP" />
+    <Node Id="136" Value="ST" Label="identifier_st: ST" />
+    <Node Id="137" Value="ST" Label="token: ST" />
+    <Node Id="138" Value="(" Label="token: (" />
+    <Node Id="139" Value="7" Label="st_argument: 7" />
+    <Node Id="140" Value=")" Label="token: )" />
+    <Node Id="141" Value="" Label="statement_list" />
+    <Node Id="142" Value="" Label="statement" />
+    <Node Id="143" Value="" Label="segment_identifier" />
+    <Node Id="144" Value="CODE" Label="token: CODE" />
+    <Node Id="145" Value="ENDS" Label="token: ENDS" />
+    <Node Id="146" Value="" Label="segment_list" />
+  </Nodes>
+  <Links>
+    <Link Source="0" Target="1" />
+    <Link Source="1" Target="2" />
+    <Link Source="2" Target="3" />
+    <Link Source="1" Target="4" />
+    <Link Source="1" Target="5" />
+    <Link Source="5" Target="6" />
+    <Link Source="6" Target="7" />
+    <Link Source="7" Target="8" />
+    <Link Source="8" Target="9" />
+    <Link Source="9" Target="10" />
+    <Link Source="8" Target="11" />
+    <Link Source="11" Target="12" />
+    <Link Source="11" Target="13" />
+    <Link Source="6" Target="14" />
+    <Link Source="14" Target="15" />
+    <Link Source="15" Target="16" />
+    <Link Source="16" Target="17" />
+    <Link Source="17" Target="18" />
+    <Link Source="16" Target="19" />
+    <Link Source="19" Target="20" />
+    <Link Source="19" Target="21" />
+    <Link Source="14" Target="22" />
+    <Link Source="22" Target="23" />
+    <Link Source="23" Target="24" />
+    <Link Source="24" Target="25" />
+    <Link Source="25" Target="26" />
+    <Link Source="24" Target="27" />
+    <Link Source="27" Target="28" />
+    <Link Source="27" Target="29" />
+    <Link Source="22" Target="30" />
+    <Link Source="30" Target="31" />
+    <Link Source="1" Target="32" />
+    <Link Source="32" Target="33" />
+    <Link Source="1" Target="34" />
+    <Link Source="0" Target="35" />
+    <Link Source="35" Target="36" />
+    <Link Source="36" Target="37" />
+    <Link Source="37" Target="38" />
+    <Link Source="36" Target="39" />
+    <Link Source="36" Target="40" />
+    <Link Source="40" Target="41" />
+    <Link Source="41" Target="42" />
+    <Link Source="42" Target="43" />
+    <Link Source="43" Target="44" />
+    <Link Source="44" Target="45" />
+    <Link Source="41" Target="46" />
+    <Link Source="46" Target="47" />
+    <Link Source="47" Target="48" />
+    <Link Source="46" Target="49" />
+    <Link Source="49" Target="50" />
+    <Link Source="50" Target="51" />
+    <Link Source="51" Target="52" />
+    <Link Source="52" Target="53" />
+    <Link Source="51" Target="54" />
+    <Link Source="51" Target="55" />
+    <Link Source="51" Target="56" />
+    <Link Source="51" Target="57" />
+    <Link Source="51" Target="58" />
+    <Link Source="49" Target="59" />
+    <Link Source="59" Target="60" />
+    <Link Source="60" Target="61" />
+    <Link Source="61" Target="62" />
+    <Link Source="62" Target="63" />
+    <Link Source="61" Target="64" />
+    <Link Source="61" Target="65" />
+    <Link Source="61" Target="66" />
+    <Link Source="61" Target="67" />
+    <Link Source="61" Target="68" />
+    <Link Source="59" Target="69" />
+    <Link Source="69" Target="70" />
+    <Link Source="70" Target="71" />
+    <Link Source="71" Target="72" />
+    <Link Source="71" Target="73" />
+    <Link Source="73" Target="74" />
+    <Link Source="73" Target="75" />
+    <Link Source="73" Target="76" />
+    <Link Source="73" Target="77" />
+    <Link Source="69" Target="78" />
+    <Link Source="78" Target="79" />
+    <Link Source="79" Target="80" />
+    <Link Source="80" Target="81" />
+    <Link Source="80" Target="82" />
+    <Link Source="82" Target="83" />
+    <Link Source="82" Target="84" />
+    <Link Source="82" Target="85" />
+    <Link Source="82" Target="86" />
+    <Link Source="78" Target="87" />
+    <Link Source="87" Target="88" />
+    <Link Source="88" Target="89" />
+    <Link Source="89" Target="90" />
+    <Link Source="89" Target="91" />
+    <Link Source="91" Target="92" />
+    <Link Source="91" Target="93" />
+    <Link Source="91" Target="94" />
+    <Link Source="91" Target="95" />
+    <Link Source="87" Target="96" />
+    <Link Source="96" Target="97" />
+    <Link Source="97" Target="98" />
+    <Link Source="98" Target="99" />
+    <Link Source="98" Target="100" />
+    <Link Source="100" Target="101" />
+    <Link Source="100" Target="102" />
+    <Link Source="100" Target="103" />
+    <Link Source="100" Target="104" />
+    <Link Source="96" Target="105" />
+    <Link Source="105" Target="106" />
+    <Link Source="106" Target="107" />
+    <Link Source="107" Target="108" />
+    <Link Source="107" Target="109" />
+    <Link Source="109" Target="110" />
+    <Link Source="109" Target="111" />
+    <Link Source="109" Target="112" />
+    <Link Source="109" Target="113" />
+    <Link Source="105" Target="114" />
+    <Link Source="114" Target="115" />
+    <Link Source="115" Target="116" />
+    <Link Source="116" Target="117" />
+    <Link Source="116" Target="118" />
+    <Link Source="118" Target="119" />
+    <Link Source="118" Target="120" />
+    <Link Source="118" Target="121" />
+    <Link Source="118" Target="122" />
+    <Link Source="114" Target="123" />
+    <Link Source="123" Target="124" />
+    <Link Source="124" Target="125" />
+    <Link Source="125" Target="126" />
+    <Link Source="125" Target="127" />
+    <Link Source="127" Target="128" />
+    <Link Source="127" Target="129" />
+    <Link Source="127" Target="130" />
+    <Link Source="127" Target="131" />
+    <Link Source="123" Target="132" />
+    <Link Source="132" Target="133" />
+    <Link Source="133" Target="134" />
+    <Link Source="134" Target="135" />
+    <Link Source="134" Target="136" />
+    <Link Source="136" Target="137" />
+    <Link Source="136" Target="138" />
+    <Link Source="136" Target="139" />
+    <Link Source="136" Target="140" />
+    <Link Source="132" Target="141" />
+    <Link Source="141" Target="142" />
+    <Link Source="36" Target="143" />
+    <Link Source="143" Target="144" />
+    <Link Source="36" Target="145" />
+    <Link Source="35" Target="146" />
+  </Links>
+</DirectedGraph>
